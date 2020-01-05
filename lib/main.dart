@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stetho/flutter_stetho.dart';
 import 'package:flutter_uas/home.dart';
 
 class Main extends StatelessWidget {
@@ -10,8 +9,4 @@ class Main extends StatelessWidget {
     );
   }
 }
-
-void main() {
-  Stetho.initialize();
-  runApp(Main());
-}
+void main() => runApp(Main());
